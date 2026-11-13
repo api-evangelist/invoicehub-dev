@@ -1,4 +1,4 @@
-# invoicehub-dev
+# InvoiceHub
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,113 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-invoicehub-dev is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://invoicehub.dev/
+InvoiceHub provides a REST API for validating, generating, and converting EU e‑invoices across multiple formats such as UBL, CII, XRechnung, and Factur‑X. Built on the EN 16931 European standard, the service offers free unlimited validation and paid tiers for generation and conversion. The platform includes a developer dashboard, comprehensive documentation, and client libraries, enabling seamless integration for businesses handling electronic invoicing compliance.
+
+**Areas:** Company · Invoicing · API · Validation · EU
+
+## InvoiceHub on APIs.io
+
+Everything profiled for InvoiceHub is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/invoicehub-dev/](https://apis.io/providers/invoicehub-dev/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [InvoiceHub API](https://apis.io/apis/invoicehub-dev/invoicehub-api/) — Developer-first REST API for EU electronic invoicing.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [InvoiceHub Agentic Access](https://apis.io/agentic-access/invoicehub-dev/invoicehub-dev-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [InvoiceHub API Rules](https://apis.io/rules/invoicehub-dev/invoicehub-dev-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [InvoiceHub Domain Security](https://apis.io/security/invoicehub-dev/invoicehub-dev-domain-security/)
+- [InvoiceHub Trust Center](https://apis.io/security/invoicehub-dev/invoicehub-dev-trust-center/)
+- [InvoiceHub Vulnerability Disclosure](https://apis.io/security/invoicehub-dev/invoicehub-dev-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [InvoiceHub Plans Pricing](https://apis.io/plans/invoicehub-dev/invoicehub-dev-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://invoicehub.dev/)
+- [API reference](https://invoicehub.dev/docs)
+- [Pricing](https://invoicehub.dev/pricing)
+- [Blog](https://invoicehub.dev/blog)
+- [Security](https://invoicehub.dev/security)
+- [Compliance](https://invoicehub.dev/security)
+- [Terms of service](https://invoicehub.dev/terms)
+- [Privacy policy](https://invoicehub.dev/privacy)
+
+## API Evangelist rating
+
+**Kin Score 39.2** — thin · rubric 0.27.0 · scored 2026-11-12
+
+| Facet | Score |
+|---|---|
+| Discoverability | 65.0 |
+| Contract quality | 0.0 |
+| Contract governance | 79.1 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 88.9 |
+
+**Agent readiness 10.3** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 29.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/invoicehub-dev/](https://apis.io/providers/invoicehub-dev/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for InvoiceHub: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/invoicehub-dev/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
